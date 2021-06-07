@@ -1,8 +1,8 @@
 # Glossaire
 
-> Ce glossaire a pour but d'expliquer des termes du monde du développement web, mobile, logiciel, et plus généralement de l'information et de la communication, dans des termes les plus simples possibles, tout en référençant les sources.
-> 
-> Cette liste est ordonnée de façon alphabétique.
+__Ce glossaire a pour but d'expliquer des termes du monde du développement web, mobile, logiciel, et plus généralement de l'information et de la communication, dans des termes les plus simples possibles, tout en référençant les sources.__
+
+__Cette liste est ordonnée de façon alphabétique.__
 
 > Todo :
 > - Sommaire
