@@ -8,6 +8,8 @@ __Cette liste est ordonnée de façon alphabétique.__
 > - Sommaire
 > - Modifier les todo
 > - Ajouter les sources
+> - Catégories (général, web, cloud, devOps, etc.)
+> - Mise en page
 
 ## API
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications.
