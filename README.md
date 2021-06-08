@@ -11,6 +11,10 @@ __Cette liste est ordonnée de façon alphabétique.__
 > - Catégories (général, web, cloud, devOps, etc.)
 > - Mise en page
 
+## Ansible.
+Ansible est un logiciel libre de gestion des configurations qui automatise le déploiement des applications et la livraison continue des mises à jour. 
+https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443876-ansible-comprendre-l-outil-d-automatisation-it-open-source-gratuit/
+
 ## API
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications.
 Les API permettent à votre produit ou service de communiquer avec d'autres produits et services sans connaître les détails de leur mise en œuvre.
@@ -127,6 +131,10 @@ Une image Docker est un fichier immuable, qui constitue une capture instantanée
 
 https://waytolearnx.com/2019/03/difference-entre-une-image-docker-et-un-conteneur.html
 
+## InfluxDB
+InfluxDB est une time series database (TSDB), qui peut stocker un large volume de données chronologiques, ou séries temporelles (times series en anglais), venant de multiples sources. InfluxDB collecte des données issues de l'internet des objets : véhicules connectés, appareils domestiques...
+https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443846-influxdb-une-base-de-donnees-time-series-open-source-sur-optimisee/
+
 ## Inversion de contrôle
 (Inversion of Control ou IOC)
 C’est un design pattern qui permet de s’affranchir des dépendances dans le code.
@@ -179,14 +187,24 @@ Il permet notamment :
 
 https://www.jmdoudoux.fr/java/dej/chap-maven.htm
 
+## Métrique
+Les métriques sont des mesures numériques simples qui sont capturées en tant que paires clé-valeur. 
+En détails : Les métriques sont des mesures numériques simples qui sont capturées en tant que paires clé-valeur. Certaines métriques incrémentent des compteurs et d'autres effectuent des agrégations (somme de toutes les valeurs collectées au cours de la dernière minute ou temps écoulé moyen, par exemple). D'autres métriques sont de simples jauges qui renvoient la dernière valeur observée. La capture et le traitement des métriques peuvent vous aider à identifier et à répondre aux problèmes potentiels avant que la situation n'empire et que des problèmes plus graves n'aient lieu.
+https://cloud.ibm.com/docs/java?topic=cloud-native-metrics&locale=fr
+
 ## Microservices
 Microservices is a synonym for Service Oriented Architectural (SOA) style of constructing aggregation of many small loosely coupled services.
 Les microservices sont un synonymes Service Oriented Architectural (SOA), Architecture Orienté Service, qui permet de construire un groupe de plusieurs services faiblement dépendants (couplés).
 
 https://www.tatvasoft.com/blog/microservices-implementation-java/
 
-## MVC (pattern)
-todo
+## MVC
+MVC (Model-View-Controller, ou modèle-vue-contrôleur) est le nom d'une méthodologie ou d'un motif de conception (pattern) visant à faire le lien entre l'interface utilisateur et les modèles de données sous-jacents.
+Le motif MVC se compose de trois modules ou objets principaux à utiliser dans le développement de logiciels :
+- Un modèle représentant la structure logique sous-jacente des données dans une application logicielle, ainsi que la classe supérieure qui y est associée. Ce modèle d'objet ne contient aucune information sur l'interface utilisateur.
+- Une vue, autrement dit un ensemble de classes représentant les éléments de l'interface utilisateur (tous ceux que l'utilisateur voit à l'écran et avec lesquels il peut interagir : boutons, boîtes de dialogue, etc.).
+- Un contrôleur représentant les classes qui se connectent au modèle et à la vue, et servant à la communication entre les classes dans le modèle et la vue.
+https://whatis.techtarget.com/fr/definition/modele-vue-controleur-MVC
 
 ## MVVM
 C’est un design pattern, l’idée à retenir avec MVVM est simple : la vue ne doit jamais traiter de données. Elle s’occupe uniquement de les afficher. Le View-Model aura en charge les conversions et les accès au modèle de données.
@@ -225,6 +243,10 @@ Une procédure stockée, aussi appelée stored procedure en anglais, est un conc
 
 https://sql.sh/cours/procedure-stockee
 
+## Prometheus
+C'est un système de monitoring, Prometheus est un logiciel open source de collecte des métriques (ou mesures) de serveurs. Il repose sur une base de données orientée séries temporelles pour générer des indicateurs. 
+https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443880-prometheus-le-monitoring-oriente-alerting-open-source-gratuit/
+
 ## Réplication/duplication
 La réplication est le processus qui consiste à effectuer une réplique ou copie d’un contenu d’une base de données.
 
@@ -233,6 +255,10 @@ https://www.developpez.net/forums/d467679/bases-donnees/ms-sql-server/replicatio
 
 ## Repository
 Un repo (repository, ou répertoire) est un espace de stockage pour le code dans GitHub.
+
+## Reverse-proxy
+Un reverse-proxy est une brique de notre infrastructure, qui permet d’être un intermédiaire de communication, entre un réseau public et un réseau privé, le nôtre par exemple. C’est sur ce réseau privé que l’on trouvera toutes les applications de notre SI qui ne sont pas accessibles depuis l’extérieur pour des raisons de sécurité principalement.
+https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
 
 ## Scalabilité
 En informatique matérielle et logicielle et en télécommunications, l'extensibilité ou scalabilité désigne la capacité d'un produit à s'adapter à un changement d'ordre de grandeur de la demande (montée en charge), en particulier sa capacité à maintenir ses fonctionnalités et ses performances en cas de forte demande.
@@ -272,6 +298,12 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/json-web-toke
 Un "Bearer Token" est un JSON Web Token dont le rôle est d'indiquer que l'utilisateur qui accède aux ressources est bien authentifié.
 
 https://blogs.infinitesquare.com/posts/web/mise-en-place-d-une-authentification-par-bearer-token-dans-une-application-aspnet-core
+
+## Traefik
+Traefik est un “modern reverse proxy”, un reverse proxy designé pour répondre aux besoins du cloud.
+https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
+
+
 
 
 
