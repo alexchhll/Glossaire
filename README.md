@@ -49,6 +49,11 @@ Une fonction de rappel (aussi appelée callback en anglais) est une fonction pas
 https://developer.mozilla.org/fr/docs/Glossaire/Fonction_de_rappel
 
 ## Conteneur
+Ensemble d'applications et de dépendances, basé sur l'environnement Linux. Il ne contient pas d'OS mais accède à l'OS hôte.
+Puisqu'il ne contient pas d'OS, il est plus léger, et plus facile à migrer, télécharger ou restaurer qu'une VM.
+
+Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
+
 Si on applique le concept de l’orienté objet, alors si une image est une classe, un conteneur est une instance d’une classe, c’est-à-dire un objet d’exécution.
 
 https://waytolearnx.com/2019/03/difference-entre-une-image-docker-et-un-conteneur.html
@@ -69,6 +74,16 @@ https://www.lebigdata.fr/continuous-delivery-definition
 Le logiciel « Docker » est une technologie de conteneurisation qui permet la création et l'utilisation de conteneurs Linux®.
 
 https://www.redhat.com/fr/topics/containers/what-is-docker
+
+## Docker file
+Fichier qui permet de construire une image étape par étape de automatiquement.
+
+Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
+
+## Docker hub
+Le Docker hub est un registre docker qui est un dépôt public d'images.
+
+Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
 
 ## DAO
 Un Dao (en Java par exemple), c’est une interface qui contient les opérations basiques CRUD d’une base de données pour manipuler un objet.
@@ -130,6 +145,10 @@ https://www.redhat.com/fr/topics/virtualization/what-is-a-virtual-machine
 Une image Docker est un fichier immuable, qui constitue une capture instantanée d’un conteneur.
 
 https://waytolearnx.com/2019/03/difference-entre-une-image-docker-et-un-conteneur.html
+
+Template prêt à l'emploi, avec des instructions pour la construction d'un conteneur.
+Exemples d'images : Debian, Ubuntu, emacs, Nginx
+Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
 
 ## InfluxDB
 InfluxDB est une time series database (TSDB), qui peut stocker un large volume de données chronologiques, ou séries temporelles (times series en anglais), venant de multiples sources. InfluxDB collecte des données issues de l'internet des objets : véhicules connectés, appareils domestiques...
