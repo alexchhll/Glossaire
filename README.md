@@ -11,7 +11,7 @@ __Cette liste est ordonnée de façon alphabétique.__
 > - Catégories (général, web, cloud, devOps, etc.)
 > - Mise en page
 
-## Ansible.
+## Ansible
 Ansible est un logiciel libre de gestion des configurations qui automatise le déploiement des applications et la livraison continue des mises à jour. 
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443876-ansible-comprendre-l-outil-d-automatisation-it-open-source-gratuit/
 
