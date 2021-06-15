@@ -13,6 +13,7 @@ __Cette liste est ordonnée de façon alphabétique.__
 
 ## Ansible
 Ansible est un logiciel libre de gestion des configurations qui automatise le déploiement des applications et la livraison continue des mises à jour. 
+
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443876-ansible-comprendre-l-outil-d-automatisation-it-open-source-gratuit/
 
 ## API
@@ -165,6 +166,7 @@ Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
 
 ## InfluxDB
 InfluxDB est une time series database (TSDB), qui peut stocker un large volume de données chronologiques, ou séries temporelles (times series en anglais), venant de multiples sources. InfluxDB collecte des données issues de l'internet des objets : véhicules connectés, appareils domestiques...
+
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443846-influxdb-une-base-de-donnees-time-series-open-source-sur-optimisee/
 
 ## Inversion de contrôle
@@ -217,6 +219,7 @@ https://www.redhat.com/fr/topics/virtualization/what-is-a-virtual-machine
 Un middleware est un logiciel informatique qui connecte des composants logiciels ou des applications. Le logiciel se compose d'un ensemble de services qui permet à plusieurs processus s'exécutant sur une ou plusieurs machines d'interagir.
 
 http://en.wikipedia.org/wiki/Middleware
+
 https://stackoverflow.com/questions/2904854/what-is-middleware-exactly
 
 Un middleware est un logiciel qui fournit aux applications des fonctionnalités et des services communs.
@@ -235,6 +238,7 @@ https://www.jmdoudoux.fr/java/dej/chap-maven.htm
 ## Métrique
 Les métriques sont des mesures numériques simples qui sont capturées en tant que paires clé-valeur. 
 En détails : Les métriques sont des mesures numériques simples qui sont capturées en tant que paires clé-valeur. Certaines métriques incrémentent des compteurs et d'autres effectuent des agrégations (somme de toutes les valeurs collectées au cours de la dernière minute ou temps écoulé moyen, par exemple). D'autres métriques sont de simples jauges qui renvoient la dernière valeur observée. La capture et le traitement des métriques peuvent vous aider à identifier et à répondre aux problèmes potentiels avant que la situation n'empire et que des problèmes plus graves n'aient lieu.
+
 https://cloud.ibm.com/docs/java?topic=cloud-native-metrics&locale=fr
 
 ## Microservices
@@ -249,6 +253,7 @@ Le motif MVC se compose de trois modules ou objets principaux à utiliser dans l
 - Un modèle représentant la structure logique sous-jacente des données dans une application logicielle, ainsi que la classe supérieure qui y est associée. Ce modèle d'objet ne contient aucune information sur l'interface utilisateur.
 - Une vue, autrement dit un ensemble de classes représentant les éléments de l'interface utilisateur (tous ceux que l'utilisateur voit à l'écran et avec lesquels il peut interagir : boutons, boîtes de dialogue, etc.).
 - Un contrôleur représentant les classes qui se connectent au modèle et à la vue, et servant à la communication entre les classes dans le modèle et la vue.
+
 https://whatis.techtarget.com/fr/definition/modele-vue-controleur-MVC
 
 ## MVVM
@@ -295,12 +300,14 @@ https://sql.sh/cours/procedure-stockee
 
 ## Prometheus
 C'est un système de monitoring, Prometheus est un logiciel open source de collecte des métriques (ou mesures) de serveurs. Il repose sur une base de données orientée séries temporelles pour générer des indicateurs. 
+
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443880-prometheus-le-monitoring-oriente-alerting-open-source-gratuit/
 
 ## Réplication/duplication
 La réplication est le processus qui consiste à effectuer une réplique ou copie d’un contenu d’une base de données.
 
 https://www.lemagit.fr/definition/Replication
+
 https://www.developpez.net/forums/d467679/bases-donnees/ms-sql-server/replications/besoin-d-aide-replication-base-sql-server-2005-a/
 
 ## Repository
@@ -308,6 +315,7 @@ Un repo (repository, ou répertoire) est un espace de stockage pour le code dans
 
 ## Reverse-proxy
 Un reverse-proxy est une brique de notre infrastructure, qui permet d’être un intermédiaire de communication, entre un réseau public et un réseau privé, le nôtre par exemple. C’est sur ce réseau privé que l’on trouvera toutes les applications de notre SI qui ne sont pas accessibles depuis l’extérieur pour des raisons de sécurité principalement.
+
 https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
 
 ## Scalabilité
@@ -342,6 +350,7 @@ Il permet de tester une fonction de l’application.
 Un token est généralement une chaîne longue et unique de lettres et de chiffres aléatoires que l’on assigne à un utilisateur. Le token est un peu comme un numéro de passeport : il est unique et permet de vous identifier. L’API peut donc l’utiliser pour savoir qui effectue la requête, et surtout de quel niveau d’autorisation cette personne dispose.
 
 https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web/6820251-authentifiez-une-api-pour-plus-de-securite
+
 https://www.ionos.fr/digitalguide/sites-internet/developpement-web/json-web-token-jwt/
 
 ## Token bearer
@@ -351,6 +360,7 @@ https://blogs.infinitesquare.com/posts/web/mise-en-place-d-une-authentification-
 
 ## Traefik
 Traefik est un “modern reverse proxy”, un reverse proxy designé pour répondre aux besoins du cloud.
+
 https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
 
 
