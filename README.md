@@ -1,6 +1,6 @@
 # Glossaire
 
-__Ce glossaire a pour but d'expliquer des termes du développement web, mobile, logiciel, et plus généralement de l'information et de la communication, le plus simplement possible, tout en référençant les sources.__
+__Ce glossaire explique simplement des termes du développement web, mobile, logiciel et de l'IT en général, tout en référençant des sources fiables si possible.__
 
 __Cette liste est ordonnée de façon alphabétique.__
 
