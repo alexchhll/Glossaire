@@ -54,7 +54,7 @@ Puisqu'il ne contient pas d'OS, il est plus léger, et plus facile à migrer, t�
 
 Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
 
-Si on applique le concept de l’orienté objet, alors si une image est une classe, un conteneur est une instance d’une classe, c’est-à-dire un objet d’exécution.
+Si on applique le concept de l’orienté objet, alors une image est à un conteneur, ce qu'une instance est à une classe, c’est-à-dire qu'un conteneur est un objet d’exécution. 
 
 https://waytolearnx.com/2019/03/difference-entre-une-image-docker-et-un-conteneur.html
 
@@ -70,20 +70,12 @@ L’intégration continue ou Continuous Integration permet de s’assurer que le
 
 https://www.lebigdata.fr/continuous-delivery-definition
 
-## Docker
-Le logiciel « Docker » est une technologie de conteneurisation qui permet la création et l'utilisation de conteneurs Linux®.
+## Daemon
+Un daemon désigne un programme informatique ou un processus qui n'est pas contrôlé par l'utilisateur et qui s'exécute en arrière-plan. 
 
-https://www.redhat.com/fr/topics/containers/what-is-docker
+https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203573-daemon-demon-definition-traduction/
 
-## Docker file
-Fichier qui permet de construire une image étape par étape de automatiquement.
-
-Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
-
-## Docker hub
-Le Docker hub est un registre docker qui est un dépôt public d'images.
-
-Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
+https://www.techno-science.net/definition/7656.html
 
 ## DAO
 Un Dao (en Java par exemple), c’est une interface qui contient les opérations basiques CRUD d’une base de données pour manipuler un objet.
@@ -95,6 +87,27 @@ Ou patron de conception
 
 https://gist.github.com/kevinCefalu/c160afd09b2802c01e3dfc02d09ed677
 todo
+
+## Docker
+Le logiciel « Docker » est une technologie de conteneurisation qui permet la création et l'utilisation de conteneurs Linux®.
+
+https://www.redhat.com/fr/topics/containers/what-is-docker
+
+## Docker file
+Fichier qui permet de construire une image étape par étape de automatiquement.
+
+Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
+
+## Docker hub
+Le Docker hub est un registre docker qui est un dépôt public d'images fourni par Docker.
+
+Chaîne YouTube "Cookie connecté" : https://www.youtube.com/watch?v=caXHwYC3tq8
+
+## Docker registry
+
+Un registry est un registre docker privé permettant de stocker des images. C'est le pendant privé du Docker hub.
+
+https://www.quora.com/What-is-the-exact-difference-between-Docker-Hub-and-Docker-Registry
 
 ## Entité/entity
 Pour simplifier, c’est une classe (mais qui peut exister plutôt dans le monde réel, de façon concrète ou abstraite, exemples : un client, une vidéo, un rendez-vous, une session d’examen, un produit)
@@ -175,6 +188,19 @@ L'API Java Persistence repose sur des entités qui sont de simples POJOs annoté
 
 https://www.jmdoudoux.fr/java/dej/chap-jpa.htm
 
+## Kubernetes
+Kubernetes est une plate-forme pour la gestion de charges de travail (workloads) et de services conteneurisés.
+
+https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/
+
+## Library
+Traduit par “bibliothèque” en français, une library est un ensemble de fonctions et de classes déjà codées dans un langage spécifique.
+Attention : Librairie est la mauvaise traduction française de “library”.
+
+https://fr.tuto.com/blog/2020/10/librairie-programmation.htm
+
+https://codes-sources.commentcamarche.net/forum/affich-586268-bibliotheque-vs-librairie
+
 ## LINQ
 LINQ : c’est un langage de requêtes qui permet de récupérer des données depuis une bdd (comme le langage SQL) mais aussi depuis des structures de données (en gros, depuis des objets comme les collections), le résultat est récupéré sous forme d’objets.
 
@@ -232,6 +258,11 @@ C’est un design pattern, l’idée à retenir avec MVVM est simple : la vue ne
 Un espace de nom ou namespace représente un moyen de séparer ses éléments au sein du code de telle sorte à éviter les conflits (ou collisions). Ces collisions sont dues à des duplications de noms (ou identifiants) d'éléments comme les fonctions, les constantes ou les classes.
 
 https://www.chiny.me/les-espaces-de-noms-namespaces-8-14.php
+
+## Orchestration de conteneur
+L'orchestration de conteneur désigne le processus d'organisation du travail des composants individuels et des niveaux d'application.
+
+https://www.hpe.com/fr/fr/what-is/container-orchestration.html
 
 ## ORM
 Un ORM : c’est un framework qui lie un objet à une base de données.
