@@ -1,15 +1,18 @@
 # Glossaire
 
+# Introduction
 __Ce glossaire explique simplement des termes du développement web, mobile, logiciel et de l'IT en général, tout en référençant des sources fiables si possible.__
 
 __Cette liste est ordonnée de façon alphabétique.__
 
-> Todo :
-> - Sommaire
-> - Modifier les todo
-> - Ajouter les sources
-> - Catégories (général, web, cloud, devOps, etc.)
-> - Mise en page
+# Todo
+- Sommaire
+- Modifier les todo
+- Ajouter les sources
+- Catégories (général, web, cloud, devOps, etc.)
+- Mise en page
+
+# A
 
 ## Ansible
 Ansible est un logiciel libre de gestion des configurations qui automatise le déploiement des applications et la livraison continue des mises à jour. 
@@ -33,6 +36,8 @@ Une API Gateway (également appelée passerelle API) est le point d'entrée uniq
 
 https://www.axway.com/fr/produits/api-management/api-gateway
 
+# B
+
 ## Bootstrap
 Ou le verbe bootstrapper
 Le mot “bootstrap” signifie amorcer, c'est-à-dire charger un programme (généralement un système d'exploitation) dans un ordinateur en utilisant un programme initial beaucoup plus petit (amorce).
@@ -43,6 +48,8 @@ https://whatis.techtarget.com/fr/definition/Bootstrap
 Le bootstrapping décrit en informatique les techniques fondées sur l'écriture d'un compilateur (ou d'un assembleur) dans le langage de programmation cible qu'il doit compiler.
 
 https://fr.wikipedia.org/wiki/Bootstrap_(compilateur)
+
+# C
 
 ## Callback
 Une fonction de rappel (aussi appelée callback en anglais) est une fonction passée dans une autre fonction en tant qu'argument, qui est ensuite invoquée à l'intérieur de la fonction externe pour accomplir une sorte de routine ou d'action. 
@@ -71,6 +78,8 @@ L’intégration continue ou Continuous Integration permet de s’assurer que le
 
 https://www.lebigdata.fr/continuous-delivery-definition
 
+# D
+
 ## Daemon
 Un daemon désigne un programme informatique ou un processus qui n'est pas contrôlé par l'utilisateur et qui s'exécute en arrière-plan. 
 
@@ -84,10 +93,13 @@ Un Dao (en Java par exemple), c’est une interface qui contient les opérations
 https://stackoverflow.com/questions/19154202/data-access-object-dao-in-java
 
 ## Design pattern
-Ou patron de conception
+Ou patron de conception, les patrons de conceptions sont des solutions classiques à des problèmes récurrents de la conception de logiciels. Chaque patron est une sorte de plan ou de schéma que vous pouvez personnaliser afin de résoudre un problème récurrent dans votre code.
 
-https://gist.github.com/kevinCefalu/c160afd09b2802c01e3dfc02d09ed677
-todo
+https://refactoring.guru/fr/design-patterns
+
+https://www.jesuisundev.com/design-patterns/
+
+Définitions des différents patrons de conception : https://gist.github.com/kevinCefalu/c160afd09b2802c01e3dfc02d09ed677
 
 ## Docker
 Le logiciel « Docker » est une technologie de conteneurisation qui permet la création et l'utilisation de conteneurs Linux®.
@@ -110,8 +122,10 @@ Un registry est un registre docker privé permettant de stocker des images. C'es
 
 https://www.quora.com/What-is-the-exact-difference-between-Docker-Hub-and-Docker-Registry
 
-## Entité/entity
-Pour simplifier, c’est une classe (mais qui peut exister plutôt dans le monde réel, de façon concrète ou abstraite, exemples : un client, une vidéo, un rendez-vous, une session d’examen, un produit)
+# E
+
+## Entité
+Ou entity, pour simplifier, c’est une classe (mais qui peut exister plutôt dans le monde réel, de façon concrète ou abstraite, exemples : un client, une vidéo, un rendez-vous, une session d’examen, un produit).
 
 https://stackoverflow.com/questions/2550197/whats-the-difference-between-entity-and-class
 
@@ -119,7 +133,7 @@ https://stackoverflow.com/questions/2550197/whats-the-difference-between-entity-
 EntityFramework est un ORM et donc une surcouche d’une bdd qui permet de manipuler des valeurs d’une bdd relationnelle comme des objets d’un langage (ici en C#).
 
 ## Environnement de production
-L'environnement de production, sur lequel sont exécutés les programmes opérationnellement.
+L'environnement de production est un environnement sur lequel sont exécutés les programmes opérationnellement.
 
 https://ibmcloud.developpez.com/tutoriels/developpement-applications/deploiements-applications-pour-les-nuls/#L1
 
@@ -130,16 +144,22 @@ Each available event has an event handler, which is a block of code (usually a J
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 todo
 
+# F
+
 ## Façade
 La façade est un Design Pattern. Elle permet de cacher la complexité d’un système en fournissant une interface au client, depuis laquelle le client peut accéder au système.
 En gros, c’est une couche qui permet de cacher le code avec lequel il n’est pas directement concerné.
 
 https://www.geeksforgeeks.org/facade-design-pattern-introduction/
 
+# G
+
 ## Gradle
 Gradle est un outil de construction de projets.
 
 https://docs.gradle.org/current/userguide/what_is_gradle.html
+
+# H
 
 ## Hibernate
 Hibernate est une solution open source de type ORM (Object Relational Mapping) qui permet de faciliter le développement de la couche persistance d'une application. Hibernate permet donc de représenter une base de données en objets Java et vice versa.
@@ -154,6 +174,8 @@ Hyperviseur
 L'hyperviseur est le logiciel qui permet de séparer les ressources de la machine du matériel et de les approvisionner de manière adéquate pour que la machine virtuelle puisse les utiliser.
 
 https://www.redhat.com/fr/topics/virtualization/what-is-a-virtual-machine
+
+# I
 
 ## Image docker
 Une image Docker est un fichier immuable, qui constitue une capture instantanée d’un conteneur.
@@ -176,13 +198,15 @@ The Inversion of Control (IoC) and Dependency Injection (DI) patterns are all ab
 
 https://stackoverflow.com/questions/3058/what-is-inversion-of-control
 
-## L’inversion de contrôle est un processus dans lequel un objet définit ses dépendances sans devoir les créer.
+L’inversion de contrôle est un processus dans lequel un objet définit ses dépendances sans devoir les créer.
 Cet objet délègue le travail de construction de ces dépendances à un conteneur d’inversion de contrôle.
 
 https://www.baeldung.com/spring-bean
 
+# J
+
 ## JDBC
-JDBC est l'acronyme de Java DataBase Connectivity et désigne une API pour permettre un accès aux bases de données avec Java.
+JDBC est l'acronyme de Java DataBase Connectivity et désigne une API qui permet un accès aux bases de données avec Java.
 
 ## JPA
 L'utilisation pour la persistance d'un mapping O/R permet de proposer un niveau d'abstraction plus élevé que la simple utilisation de JDBC : ce mapping permet d'assurer la transformation d'objets  vers la base de données et vice versa que cela soit pour des lectures ou des mises à jour (création, modification ou suppression).
@@ -190,10 +214,14 @@ L'API Java Persistence repose sur des entités qui sont de simples POJOs annoté
 
 https://www.jmdoudoux.fr/java/dej/chap-jpa.htm
 
+# K
+
 ## Kubernetes
-Kubernetes est une plate-forme pour la gestion de charges de travail (workloads) et de services conteneurisés.
+Kubernetes est une plate-forme qui permet la gestion de charges de travail (workloads) et de services conteneurisés.
 
 https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/
+
+# L
 
 ## Library
 Traduit par “bibliothèque” en français, une library est un ensemble de fonctions et de classes déjà codées dans un langage spécifique.
@@ -210,21 +238,12 @@ https://www.tutorialsteacher.com/linq/what-is-linq
 
 https://www.tutorialspoint.com/linq/linq_sql.htm
 
+# M
+
 ## Machine virtuelle (VM)
 Une machine virtuelle est un environnement virtuel qui fonctionne comme un système informatique virtuel, avec son propre processeur, sa mémoire, son interface réseau et son espace de stockage, mais qui est créé sur un système matériel physique (situé sur site ou hors site).
 
 https://www.redhat.com/fr/topics/virtualization/what-is-a-virtual-machine
-
-## Middleware
-Un middleware est un logiciel informatique qui connecte des composants logiciels ou des applications. Le logiciel se compose d'un ensemble de services qui permet à plusieurs processus s'exécutant sur une ou plusieurs machines d'interagir.
-
-http://en.wikipedia.org/wiki/Middleware
-
-https://stackoverflow.com/questions/2904854/what-is-middleware-exactly
-
-Un middleware est un logiciel qui fournit aux applications des fonctionnalités et des services communs.
-
-https://www.redhat.com/fr/topics/middleware/what-is-middleware
 
 ## Maven
 Maven est un outil de construction de projets (build) open source développé par la fondation Apache, initialement pour les besoins du projet Jakarta Turbine. Il permet de faciliter et d'automatiser certaines tâches de la gestion d'un projet Java.
@@ -242,10 +261,28 @@ En détails : Les métriques sont des mesures numériques simples qui sont captu
 https://cloud.ibm.com/docs/java?topic=cloud-native-metrics&locale=fr
 
 ## Microservices
-Microservices is a synonym for Service Oriented Architectural (SOA) style of constructing aggregation of many small loosely coupled services.
-Les microservices sont un synonymes Service Oriented Architectural (SOA), Architecture Orienté Service, qui permet de construire un groupe de plusieurs services faiblement dépendants (couplés).
+Les microservices désignent à la fois une architecture et une approche de développement logiciel qui consiste à décomposer les applications en éléments les plus simples, indépendants les uns des autres. 
+
+Chacun de ces composants ou processus est un microservice.
+
+https://www.redhat.com/fr/topics/microservices
+
+Microservice est une architecture qui permet de construire un groupe de plusieurs services faiblement dépendants (couplés), c'est un synonyme de Service Oriented Architectural (SOA)ou Architecture Orientée Service.
+
+En anglais : Microservices is a synonym for Service Oriented Architectural (SOA) style of constructing aggregation of many small loosely coupled services.
 
 https://www.tatvasoft.com/blog/microservices-implementation-java/
+
+## Middleware
+Un middleware est un logiciel informatique qui connecte des composants logiciels ou des applications. Le logiciel se compose d'un ensemble de services qui permet à plusieurs processus s'exécutant sur une ou plusieurs machines d'interagir.
+
+http://en.wikipedia.org/wiki/Middleware
+
+https://stackoverflow.com/questions/2904854/what-is-middleware-exactly
+
+Un middleware est un logiciel qui fournit aux applications des fonctionnalités et des services communs.
+
+https://www.redhat.com/fr/topics/middleware/what-is-middleware
 
 ## MVC
 MVC (Model-View-Controller, ou modèle-vue-contrôleur) est le nom d'une méthodologie ou d'un motif de conception (pattern) visant à faire le lien entre l'interface utilisateur et les modèles de données sous-jacents.
@@ -259,10 +296,14 @@ https://whatis.techtarget.com/fr/definition/modele-vue-controleur-MVC
 ## MVVM
 C’est un design pattern, l’idée à retenir avec MVVM est simple : la vue ne doit jamais traiter de données. Elle s’occupe uniquement de les afficher. Le View-Model aura en charge les conversions et les accès au modèle de données.
 
+# N
+
 ## Namespace
 Un espace de nom ou namespace représente un moyen de séparer ses éléments au sein du code de telle sorte à éviter les conflits (ou collisions). Ces collisions sont dues à des duplications de noms (ou identifiants) d'éléments comme les fonctions, les constantes ou les classes.
 
 https://www.chiny.me/les-espaces-de-noms-namespaces-8-14.php
+
+# O
 
 ## Orchestration de conteneur
 L'orchestration de conteneur désigne le processus d'organisation du travail des composants individuels et des niveaux d'application.
@@ -270,12 +311,18 @@ L'orchestration de conteneur désigne le processus d'organisation du travail des
 https://www.hpe.com/fr/fr/what-is/container-orchestration.html
 
 ## ORM
-Un ORM : c’est un framework qui lie un objet à une base de données.
+Un ORM est un framework qui lie un objet à une base de données.
+
+ORM signifie object-relational mapping, soit mapping objet-relationnel.
+
 Exemple d’ORM : JPA.
-Java EE fournit une API standard pour l’utilisation d’un ORM : JPA (Java Persistence API)
+
+Java EE fournit une API standard pour l’utilisation d’un ORM : JPA (Java Persistence API).
 EntityFramework est aussi un ORM.
 
 https://spoonless.github.io/epsi-b3-orm/javaee_orm/intro.html
+
+# P
 
 ## PATH
 Le PATH est une variable d’environnement qui indique au shell dans quels répertoires chercher les fichiers exécutables.
@@ -303,6 +350,10 @@ C'est un système de monitoring, Prometheus est un logiciel open source de colle
 
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443880-prometheus-le-monitoring-oriente-alerting-open-source-gratuit/
 
+# Q
+
+# R
+
 ## Réplication/duplication
 La réplication est le processus qui consiste à effectuer une réplique ou copie d’un contenu d’une base de données.
 
@@ -318,6 +369,8 @@ Un reverse-proxy est une brique de notre infrastructure, qui permet d’être un
 
 https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
 
+# S
+
 ## Scalabilité
 En informatique matérielle et logicielle et en télécommunications, l'extensibilité ou scalabilité désigne la capacité d'un produit à s'adapter à un changement d'ordre de grandeur de la demande (montée en charge), en particulier sa capacité à maintenir ses fonctionnalités et ses performances en cas de forte demande.
 
@@ -328,6 +381,22 @@ La sérialisation est le codage d'une information sous la forme d'une suite d'in
 L'activité réciproque, visant à décoder cette suite pour créer une copie conforme de l'information d'origine, s'appelle la désérialisation. Exemple, en JavaScript, la méthode JSON.parse() analyse une chaîne de caractères JSON et construit la valeur JavaScript ou l'objet décrit par cette chaîne (string vers objet).
 
 https://fr.wikipedia.org/wiki/S%C3%A9rialisation
+
+# Socket
+Une socketest est l’extrémité d’un canal de communication bidirectionnel, côté client ou serveur, associée à un port.
+
+https://du-isn.gricad-pages.univ-grenoble-alpes.fr/2-sr/Reseaux/3--cours_reseaux--sockets_java.pdf
+
+## SOLID
+L'acronyme SOLID désigne les 5 principes fondamentaux de conception répondant à la problématique d’évolutivité d'un système. Ce sont les suivants :
+- Single responsibility principle
+- Open close principle
+- Liskov principle
+- Interface segregation principle
+- Dependency inversion principle- 
+
+Ces principes sont tirés du livre Agile Software Development, Pinciples, Patterns and Practices de Robert C. Martin (2002.
+https://blog.engineering.publicissapient.fr/2011/07/18/les-principes-solid/
 
 ## Spring
 C’est un framework basé sur les idées d’injection de dépendances et d’inversion de contrôle.
@@ -340,6 +409,8 @@ Spring Boot est un framework de développement applicatif JAVA open Source. Il e
 Spring Boot est un framework de développement JAVA. C'est une déclinaison du framework classique de Spring qui permet essentiellement de réaliser des micro services (ce sont la majeure partie du temps des services web qui sont regroupés en API).
 
 https://www.axopen.com/spring-boot-lyon/
+
+# T
 
 ## Test unitaire
 Il a pour but que le code qu’on a écrit retourne une réponse à laquelle on s’attend, exemple un nombre.
@@ -362,6 +433,21 @@ https://blogs.infinitesquare.com/posts/web/mise-en-place-d-une-authentification-
 Traefik est un “modern reverse proxy”, un reverse proxy designé pour répondre aux besoins du cloud.
 
 https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
+
+
+
 
 
 
