@@ -334,7 +334,8 @@ Un espace de nom ou namespace représente un moyen de séparer ses éléments au
 https://www.chiny.me/les-espaces-de-noms-namespaces-8-14.php
 
 ## Node
-Un node ou noeud  est une machine de travail dans Kubernetes. Un noeud peut être une machine virtuelle ou une machine physique
+Un node ou noeud  est une machine de travail dans Kubernetes. Un noeud peut être une machine virtuelle ou une machine physique.
+
 Auparavant appelé "minion".
 https://kubernetes.io/fr/docs/concepts/architecture/nodes/
 
@@ -394,7 +395,7 @@ Une procédure stockée, aussi appelée stored procedure en anglais, est un conc
 https://sql.sh/cours/procedure-stockee
 
 ## Prometheus
-C'est un système de monitoring, Prometheus est un logiciel open source de collecte des métriques (ou mesures) de serveurs. Il repose sur une base de données orientée séries temporelles pour générer des indicateurs. 
+Prometheus est un logiciel open source de collecte des métriques (ou mesures) de serveurs. C'est un système de monitoring qui repose sur une base de données orientée séries temporelles pour générer des indicateurs. 
 
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443880-prometheus-le-monitoring-oriente-alerting-open-source-gratuit/
 
@@ -425,7 +426,11 @@ https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
 # S
 
 ## Scalabilité
-En informatique matérielle et logicielle et en télécommunications, l'extensibilité ou scalabilité désigne la capacité d'un produit à s'adapter à un changement d'ordre de grandeur de la demande (montée en charge), en particulier sa capacité à maintenir ses fonctionnalités et ses performances en cas de forte demande.
+La scalabilité désigne la capacité d'un produit à s'adapter à un changement d'ordre de grandeur de la demande (montée en charge), en particulier sa capacité à maintenir ses fonctionnalités et ses performances en cas de forte demande.
+
+Aussi appelée extensibilité.
+
+Dans le domaine de l'informatique matérielle et logicielle et dans les télécommunications.
 
 https://fr.wikipedia.org/wiki/Scalability
 
