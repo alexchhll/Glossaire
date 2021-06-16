@@ -49,12 +49,20 @@ Le bootstrapping décrit en informatique les techniques fondées sur l'écriture
 
 https://fr.wikipedia.org/wiki/Bootstrap_(compilateur)
 
+## Bridge 
+C’est un type de driver réseau, il permet de relier (mapper) un port de la machine hôte vers un port d’un conteneur.
+
 # C
 
 ## Callback
 Une fonction de rappel (aussi appelée callback en anglais) est une fonction passée dans une autre fonction en tant qu'argument, qui est ensuite invoquée à l'intérieur de la fonction externe pour accomplir une sorte de routine ou d'action. 
 
 https://developer.mozilla.org/fr/docs/Glossaire/Fonction_de_rappel
+
+## Cluster
+Un cluster Kubernetes est un ensemble de machines (les noeuds) qui permettent d'exécuter des applications conteneurisées. 
+
+Si vous exécutez Kubernetes, vous exécutez un cluster.
 
 ## Conteneur
 Ensemble d'applications et de dépendances, basé sur l'environnement Linux. Il ne contient pas d'OS mais accède à l'OS hôte.
@@ -105,6 +113,11 @@ Définitions des différents patrons de conception : https://gist.github.com/kev
 Le logiciel « Docker » est une technologie de conteneurisation qui permet la création et l'utilisation de conteneurs Linux®.
 
 https://www.redhat.com/fr/topics/containers/what-is-docker
+
+## Docker Engine 
+Docker Engine est une technologie de conteneurisation open source qui permet de créer et conteneuriser des applications. Docker Engine agit comme une application client-serveur.
+
+https://docs.docker.com/engine/
 
 ## Docker file
 Fichier qui permet de construire une image étape par étape de automatiquement.
@@ -216,6 +229,15 @@ https://www.jmdoudoux.fr/java/dej/chap-jpa.htm
 
 # K
 
+## Kubelet 
+Un kubelet est un agent qui s'exécute sur chaque nœud du cluster. Il s'assure que les conteneurs fonctionnent dans un pod.
+https://kubernetes.io/fr/docs/concepts/overview/components/
+
+## Kube-proxy
+Kube-proxy est un proxy réseau qui s'exécute sur chaque nœud du cluster et implémente une partie du concept Kubernetes de Service.
+
+https://kubernetes.io/fr/docs/concepts/overview/components/
+
 ## Kubernetes
 Kubernetes est une plate-forme qui permet la gestion de charges de travail (workloads) et de services conteneurisés.
 
@@ -267,7 +289,7 @@ Chacun de ces composants ou processus est un microservice.
 
 https://www.redhat.com/fr/topics/microservices
 
-Microservice est une architecture qui permet de construire un groupe de plusieurs services faiblement dépendants (couplés), c'est un synonyme de Service Oriented Architectural (SOA)ou Architecture Orientée Service.
+Microservice est une architecture qui permet de construire un groupe de plusieurs services faiblement dépendants (couplés), c'est un synonyme de Service Oriented Architectural (SOA) ou Architecture Orientée Service.
 
 En anglais : Microservices is a synonym for Service Oriented Architectural (SOA) style of constructing aggregation of many small loosely coupled services.
 
@@ -303,6 +325,11 @@ Un espace de nom ou namespace représente un moyen de séparer ses éléments au
 
 https://www.chiny.me/les-espaces-de-noms-namespaces-8-14.php
 
+## Node
+Un node ou noeud  est une machine de travail dans Kubernetes. Un noeud peut être une machine virtuelle ou une machine physique
+Auparavant appelé "minion".
+https://kubernetes.io/fr/docs/concepts/architecture/nodes/
+
 # O
 
 ## Orchestration de conteneur
@@ -322,6 +349,14 @@ EntityFramework est aussi un ORM.
 
 https://spoonless.github.io/epsi-b3-orm/javaee_orm/intro.html
 
+## Overlay networking
+Méthode qui permet de créer des couches réseaux virtuelles au-dessus d'un réseau existant.
+
+En détails : c'est une méthode d'utilisation d'un logiciel qui permet de créer des couches d'abstraction réseau qui peuvent être utilisées pour exécuter plusieurs couches réseau virtualisées distinctes et au-dessus du réseau physique, offrant souvent de nouvelles applications ou de nouveaux avantages en matière de sécurité.
+Aussi appelée mise en réseau par superposition ou superposition SDN.
+
+https://www.sdxcentral.com/networking/sdn/definitions/what-is-overlay-networking/
+
 # P
 
 ## PATH
@@ -333,6 +368,11 @@ http://www.linfo.org/path_env_var.html
 La persistance est fait de pouvoir d’enregistrer un objet en base de données et de le récupérer :
 
 https://www.developpez.net/forums/d608697/java/general-java/persistance-donnees/persistance-qu-c/
+
+## Pod
+Un pod est l'unité d'exécution de base d'une application Kubernetes, l'unité la plus petite. Il représente des process en cours d'exécution dans votre cluster.
+
+https://kubernetes.io/fr/docs/concepts/workloads/pods/pod-overview/
 
 ## Principe de responsabilité unique
 Une classe ne doit changer que pour une seule raison.
@@ -349,6 +389,11 @@ https://sql.sh/cours/procedure-stockee
 C'est un système de monitoring, Prometheus est un logiciel open source de collecte des métriques (ou mesures) de serveurs. Il repose sur une base de données orientée séries temporelles pour générer des indicateurs. 
 
 https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443880-prometheus-le-monitoring-oriente-alerting-open-source-gratuit/
+
+## Proxy
+Un serveur proxy désigne un intermédiaire, un mandataire chargé d'établir la liaison entre un réseau local privé et le réseau internet. On parle également dans cette situation de proxy web.
+
+https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203467-proxy-serveur-proxy-definition-et-acteurs/
 
 # Q
 
@@ -437,6 +482,10 @@ https://blog.ouidou.fr/%C3%A0-la-d%C3%A9couverte-de-traefik-18da29cdbb46
 # U
 
 # V
+
+VXLAN est un protocole qui permet de créer des réseaux de superposition (ou réseaux overlay) au-dessus du réseau physique.
+
+https://www.juniper.net/fr/fr/products-services/what-is/vxlan/
 
 # W
 
