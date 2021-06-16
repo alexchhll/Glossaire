@@ -82,7 +82,7 @@ Si on applique le concept de l’orienté objet, alors une image est à un conte
 
 https://waytolearnx.com/2019/03/difference-entre-une-image-docker-et-un-conteneur.html
 
-todo
+todo todo
 
 ## Continuous Delivery
 La Continuous Delivery, ou Livraison Continue en français, est une pratique DevOps consistant à développer, à tester et à délivrer des améliorations au code d'un logiciel ou aux environnements utilisateurs à l'aide d'outils automatisés. Les équipes de développement produisent et testent le code par cycles courts.
@@ -509,103 +509,3 @@ https://www.juniper.net/fr/fr/products-services/what-is/vxlan/
 # Z
 
 [Haut de page](#Glossaire)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
