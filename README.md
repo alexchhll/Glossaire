@@ -60,9 +60,11 @@ Une fonction de rappel (aussi appelée callback en anglais) est une fonction pas
 https://developer.mozilla.org/fr/docs/Glossaire/Fonction_de_rappel
 
 ## Cluster
-Un cluster Kubernetes est un ensemble de machines (les noeuds) qui permettent d'exécuter des applications conteneurisées. 
+Un cluster Kubernetes est un ensemble de machines (les noeuds ou nodes) qui permettent d'exécuter des applications conteneurisées. 
 
 Si vous exécutez Kubernetes, vous exécutez un cluster.
+
+https://www.redhat.com/fr/topics/containers/what-is-a-kubernetes-cluster
 
 ## Conteneur
 Ensemble d'applications et de dépendances, basé sur l'environnement Linux. Il ne contient pas d'OS mais accède à l'OS hôte.
