@@ -2,9 +2,7 @@
 
 
 # Introduction
-__Ce glossaire explique simplement des termes du développement web, mobile, logiciel et de l'IT en général, tout en référençant des sources fiables si possible.__
-
-__Cette liste est ordonnée de façon alphabétique.__
+__Ce glossaire explique simplement des termes du développement web, mobile, logiciel et de l'IT en général, tout en référençant des sources.__
 
 # Index
 
@@ -501,6 +499,25 @@ VXLAN est un protocole qui permet de créer des réseaux de superposition (ou r�
 https://www.juniper.net/fr/fr/products-services/what-is/vxlan/
 
 # W
+
+## Web service
+
+Un web service est une technologie permettant à des applications de dialoguer à distance via Internet indépendamment des plates-formes et des langages sur lesquels elles reposent.
+
+http://www.info.univ-angers.fr/pub/richer/ens_inra_crs3_gsoap.php
+
+http://www-igm.univ-mlv.fr/~dr/XPOSE2004/woollams/definition.html
+
+https://www.ibisc.univ-evry.fr/~tmelliti/cours/CPAR/cours6.pdf
+
+## WSDL
+WSDL est un métalangage permettant de décrire en détail les services Web. 
+
+Le WSDL est basé sur l’Extensible Markup Language (XML) ou le schéma XML (XSD). Cela signifie que le WSDL utilise des éléments XML.
+
+WSDL signifie Web Service Description Language.
+
+https://www.ionos.fr/digitalguide/sites-internet/developpement-web/web-service-description-language-wsdl/
 
 # X
 
